@@ -1,6 +1,5 @@
 import {useState} from 'react'
 import classes from './table.module.css'
-import Timer from './timer'
 
 
 function Table (props) {
