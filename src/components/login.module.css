@@ -1,0 +1,40 @@
+* {
+  z-index: 2;
+}
+
+.login {
+  position: absolute;
+}
+
+.loginText {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30%;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  width: 230px;
+  height: 400px;
+  padding: 4em;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, .20);
+
+}
+
+.submit button {
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #77002e;
+  background-color: #77002e;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.p {
+  color: gray;
+}
