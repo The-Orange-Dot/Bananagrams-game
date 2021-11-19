@@ -6,7 +6,7 @@ function App() {
   return (
     <section className={classes.container}>
     
-    <h1 className={classes.title}>BANANAGRAMS!</h1>
+    <h1 className={classes.title}>Bananagrams!</h1>
     <div>
       <Table />
     </div>

@@ -11,16 +11,14 @@ function Timer () {
   }})
   
   return (
-
     <div className={classes.container}>
- 
       <div className={classes.timerDisplay}>
-      <div className={classes.counter}>{count}</div>
+        <div className={classes.counter}>{count}</div>
       </div>
       <div className={classes.timerBtn}>
-      <button type="button" className={classes.btn} onClick={() => setCount(60)}>1 Min</button>
-      <button type="button" className={classes.btn} onClick={() => setCount(150)}>3 Min</button>
-      <button type="button" className={classes.btn} onClick={() => setCount(300)}>5 Min</button>
+        <button type="button" className={classes.btn} onClick={() => setCount(60)}>1 Min</button>
+        <button type="button" className={classes.btn} onClick={() => setCount(180)}>3 Min</button>
+        <button type="button" className={classes.btn} onClick={() => setCount(300)}>5 Min</button>
       </div>
     </div>
     )
