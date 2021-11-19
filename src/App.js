@@ -10,7 +10,7 @@ function App() {
     <div>
       <Table />
     </div>
-    <div>
+    <div className={classes.timer}>
       <Timer />
     </div>
     </section>

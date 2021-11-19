@@ -16,3 +16,18 @@
   font-family: sans-serif;
   margin: .5em;
 }
+
+.timer {
+  align-self: flex-start;
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+  margin-top: -200px;
+  background-color: #77002e;
+  padding: 50px;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
